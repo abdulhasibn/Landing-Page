@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary: #1F2937;
+    --secondary-l: #F9FAF8;
+    --secondary-s: #E5E7EB;
+    --secondary-lyt: #3882F6;
+}
