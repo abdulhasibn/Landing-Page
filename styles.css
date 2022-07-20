@@ -6,10 +6,89 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Taviraj', serif;
 }
 :root{
     --primary: #1F2937;
     --secondary-l: #F9FAF8;
     --secondary-s: #E5E7EB;
     --secondary-lyt: #3882F6;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.header{
+    margin: 0;
+    background-color: var(--primary);
+    color: white;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.sub_head{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0 8em 0;
+}
+.header_navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0;
+}
+.nav_links{
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+}
+.vdo{
+    font-size: 3rem;
+    background-color: var(--secondary-lyt);
+    padding: .2em;
+    border-radius: 20px;
+    margin-right: .5em;
+    font-style: italic;
+}
+h1{
+    font-size: 3rem;
+}
+.nav_links a{
+    font-size: 1.3rem;
+    padding: 1em .5em;
+}
+.nav_links a:hover{
+    background-color: var(--secondary-lyt);
+    border-radius: 10px;
+
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+}
+.hero_img{
+    width: 500px;
+    border-radius: 20px;
+}
+.header_content--text p{
+    font-size: 1.4rem;
+}
+.btn_1{
+    padding: .5em 2em;
+    background-color: var(--secondary-lyt);
+    border: 0;
+    border-radius: 20px;
+}
+
+.btn_1 a{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
